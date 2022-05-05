@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89217cf3e54c7f446ab79e48dd3ea41c, type: 3}
+  m_Name: Tomato
+  m_EditorClassIdentifier: 
+  type: 0
+  stages:
+  - sprite: {fileID: 21300000, guid: 64024afaf6fe1864d96d96f05c2d7c30, type: 3}
+    timeToGrow: 2
+  - sprite: {fileID: 21300000, guid: 52c1b5b3bac24df4ebee6eebe6396675, type: 3}
+    timeToGrow: 5
+  - sprite: {fileID: 21300000, guid: 65035b44866619245a986c2225f859fa, type: 3}
+    timeToGrow: 7
+  seedIcon: {fileID: 21300000, guid: 64024afaf6fe1864d96d96f05c2d7c30, type: 3}
+  price: 30
+  seedPrice: 15
